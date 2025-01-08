@@ -1,2 +1,2 @@
-# personal-website-codedex
-Final CSS in Codedex
+# Final Project: Personal Website 📂
+Portfolio
