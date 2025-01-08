@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momo</title>
+    <link href="styles.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+  </head>
+
+  <body>
+
+    <header>
+      
+      <div class="header-content">
+        <h1>M<span>O</span>M<span>O</span></h1>
+        <h2>S<span>o</span>ftware Engineer | Web Devel<span>o</span>per | Creative Thinker</h2>
+      </div>
+
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <main>
+
+      <section id="about">
+
+          <div class="about-content">
+
+            <h2>About Me</h2>
+            <p>
+              Hi, I'm Momo, an aspiring <span>software engineer</span> with a passion for problem-solving and continuous learning. 
+              I'm based in Canada, where I’m building my skills in <span>web development</span> and <span>creative tech</span> solutions. 
+              I love connecting with others through community projects and bringing fresh ideas to life. 
+              Outside of tech, I enjoy exploring languages, music, and new ways to make a positive impact.
+            </p>
+
+          </div>
+
+          <div class="profile-image">
+            <img src="photos/momo_avatar.jpg" alt="Momo" />
+          </div>
+
+      </section>
+
+      <section id="projects">
+
+        <h2>Projects</h2>
+        <p>
+          Hover over each project to learn more about it! Click on the links to view the demo or source code.
+        </p>
+
+        <ul class="project-wrapper" role="list">
+          <li class="project">
+            <img src="photos/momoww.png" alt="Momo's Wonderful World" />
+            <div class="project-info">
+              <h3>Momo's Wonderful World</h3>
+              <p>Page of a full-fledged restaurant menu that includes a form for placing an order!</p>
+              <ul class="technologies">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="links">
+                <a href="https://imanemm.github.io/momos_wonderful_world/#order-form" aria-label="View Demo">Demo</a>
+                <a href="https://github.com/imanemm/momos_wonderful_world" aria-label="View Github Repository">Github</a>
+              </div>
+            </div>
+          </li>
+          
+          <li class="project">
+            <img src="photos/idol.jpg" alt="Idol 101" />
+            <div class="project-info">
+              <h3>Idol 101</h3>
+              <p>A text-based game where you can become a K-pop idol!</p>
+              <ul class="technologies">
+                <li>Python</li>
+              </ul>
+              <div class="links">
+                <a href="https://github.com/imanemm/Idol-101" aria-label="View Github Repository">Github</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="project">
+            <img src="photos/rps.jpg" alt="Rock, Paper, Scissors" />
+            <div class="project-info">
+              <h3>Rock, Paper, Scissors</h3>
+              <p>A simple game of Rock, Paper, Scissors that you can play against the computer!</p>
+              <ul class="technologies">
+                <li>Python</li>
+              </ul>
+              <div class="links">
+                <a href="https://github.com/imanemm/rock_paper_scissors" aria-label="View Github Repository">Github</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="project">
+            <img src="photos/studyhub.png" alt="Study Hub" />
+            <div class="project-info">
+              <h3>Study Hub</h3>
+              <p>A web application that helps students organize their study materials and track their progress!</p>
+              <ul class="technologies">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="links">
+                <a href="https://studyhubseg.github.io/StudyHub/" aria-label="View Demo">Demo</a>
+                <a href="https://github.com/StudyHubSEG/StudyHub" aria-label="View Github Repository">Github</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section id="contact">
+          <div class="contact-info">
+            <h2>Let's Connect <i class="fa-regular fa-envelope"></i></h2>
+            <p>
+                If you want to reach out, feel free to send me a message below. I'm always open to new opportunities and collaborations!
+            </p>
+            <ul class="social-links">
+              <li><a href="https://www.linkedin.com/in/imanemm" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+              <li><a href="https://github.com/imanemm" target="_blank" ><i class="fa-brands fa-github-alt"></i></a></li>
+            </ul>
+          </div>
+          <div class="contact-form">
+            <h3>Contact Form</h3>
+            <form action="#" method="post">
+              <label for="name">Name</label>
+              <br>
+              <input type="text" id="name" name="name" required />
+              <br>
+              <label for="email">Email</label>
+              <br>
+              <input type="email" id="email" name="email" required />
+              <br>
+              <label for="message">Message</label>
+              <br>
+              <textarea id="message" name="message" required></textarea>
+              <br>
+              <input type="submit" value="Send Message"></input>
+            </form>
+          </div>
+      </section>
+    </main>
+    <footer>
+      <p>Made with <i class="fa-solid fa-heart"></i> by Imane Moussa Marou</p>
+    </footer>
+  </body>
+</html>
